@@ -1,0 +1,57 @@
+{
+  "device": "cpu:0",
+  "rows": [
+    {
+      "name": "DS-CNN",
+      "model": "dscnn",
+      "run": "runs/dscnn-m1",
+      "precision": "float32",
+      "runtime": "JAX (CPU)",
+      "test_acc": 0.9509001636661211,
+      "params": 23180,
+      "size_kb": 90.546875,
+      "macs": 10624768,
+      "latency_us_batch1": 2954.4500284828246,
+      "throughput_us_per_clip_batch512": 383.3957031247337
+    },
+    {
+      "name": "DS-CNN int8",
+      "model": "dscnn",
+      "run": "runs/dscnn-m1",
+      "precision": "int8",
+      "runtime": "plain C (1 core)",
+      "test_acc": 0.9488543371522095,
+      "params": 23180,
+      "size_kb": 28.890625,
+      "macs": 10624768,
+      "latency_us_batch1": 875.0,
+      "throughput_us_per_clip_batch512": null
+    },
+    {
+      "name": "GRU",
+      "model": "gru",
+      "run": "runs/gru-m3",
+      "precision": "float32",
+      "runtime": "JAX (CPU)",
+      "test_acc": 0.935556464811784,
+      "params": 45708,
+      "size_kb": 178.546875,
+      "macs": 2183424,
+      "latency_us_batch1": 724.0000122692436,
+      "throughput_us_per_clip_batch512": 63.02490237430902
+    },
+    {
+      "name": "KWT (transformer)",
+      "model": "kwt",
+      "run": "runs/kwt-m3",
+      "precision": "float32",
+      "runtime": "JAX (CPU)",
+      "test_acc": 0.9341243862520459,
+      "params": 107212,
+      "size_kb": 418.796875,
+      "macs": 6001408,
+      "latency_us_batch1": 2329.499984625727,
+      "throughput_us_per_clip_batch512": 84.14589848371179
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "method": "naive",
+  "buffer_per_class": 0,
+  "buffer_clips_final": 0,
+  "buffer_frac_of_old_data": 0.0,
+  "history": [
+    {
+      "stage": 0,
+      "acc_seen": 0.9784391461812029,
+      "acc_per_task": [
+        0.9784391461812029
+      ],
+      "acc_old": null,
+      "acc_new": 0.9784391461812029
+    },
+    {
+      "stage": 1,
+      "acc_seen": 0.2414836066727267,
+      "acc_per_task": [
+        0.0012208177416345011,
+        0.9622719734660032
+      ],
+      "acc_old": 0.0012208177416345011,
+      "acc_new": 0.9622719734660032
+    },
+    {
+      "stage": 2,
+      "acc_seen": 0.1978047717616298,
+      "acc_per_task": [
+        0.0,
+        0.0,
+        0.989023858808149
+      ],
+      "acc_old": 0.0,
+      "acc_new": 0.989023858808149
+    }
+  ],
+  "forgetting_t0": 0.9784391461812029,
+  "train_s": 1229.5049299999955,
+  "config": {
+    "report": false,
+    "t0_epochs": 20,
+    "epochs": 10,
+    "lr": 0.001,
+    "seed": 0
+  }
+}

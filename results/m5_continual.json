@@ -1,0 +1,237 @@
+[
+  {
+    "method": "naive",
+    "buffer_per_class": 0,
+    "buffer_clips_final": 0,
+    "buffer_frac_of_old_data": 0.0,
+    "history": [
+      {
+        "stage": 0,
+        "acc_seen": 0.9784391461812029,
+        "acc_per_task": [
+          0.9784391461812029
+        ],
+        "acc_old": null,
+        "acc_new": 0.9784391461812029
+      },
+      {
+        "stage": 1,
+        "acc_seen": 0.2414836066727267,
+        "acc_per_task": [
+          0.0012208177416345011,
+          0.9622719734660032
+        ],
+        "acc_old": 0.0012208177416345011,
+        "acc_new": 0.9622719734660032
+      },
+      {
+        "stage": 2,
+        "acc_seen": 0.1978047717616298,
+        "acc_per_task": [
+          0.0,
+          0.0,
+          0.989023858808149
+        ],
+        "acc_old": 0.0,
+        "acc_new": 0.989023858808149
+      }
+    ],
+    "forgetting_t0": 0.9784391461812029,
+    "train_s": 1229.5049299999955,
+    "config": {
+      "report": false,
+      "t0_epochs": 20,
+      "epochs": 10,
+      "lr": 0.001,
+      "seed": 0
+    }
+  },
+  {
+    "method": "replay:10",
+    "buffer_per_class": 10,
+    "buffer_clips_final": 80,
+    "buffer_frac_of_old_data": 0.0032583903551645487,
+    "history": [
+      {
+        "stage": 0,
+        "acc_seen": 0.9784391461812029,
+        "acc_per_task": [
+          0.9784391461812029
+        ],
+        "acc_old": null,
+        "acc_new": 0.9784391461812029
+      },
+      {
+        "stage": 1,
+        "acc_seen": 0.8745967143765254,
+        "acc_per_task": [
+          0.846590282217095,
+          0.9586160108548168
+        ],
+        "acc_old": 0.846590282217095,
+        "acc_new": 0.9586160108548168
+      },
+      {
+        "stage": 2,
+        "acc_seen": 0.748202070669263,
+        "acc_per_task": [
+          0.6469264839641713,
+          0.8235903814262023,
+          0.9766405200275993
+        ],
+        "acc_old": 0.691092458329679,
+        "acc_new": 0.9766405200275993
+      }
+    ],
+    "forgetting_t0": 0.3315126622170316,
+    "train_s": 2460.412863000005,
+    "config": {
+      "report": false,
+      "t0_epochs": 20,
+      "epochs": 10,
+      "lr": 0.001,
+      "seed": 0
+    }
+  },
+  {
+    "method": "replay:50",
+    "buffer_per_class": 50,
+    "buffer_clips_final": 400,
+    "buffer_frac_of_old_data": 0.016291951775822745,
+    "history": [
+      {
+        "stage": 0,
+        "acc_seen": 0.9784391461812029,
+        "acc_per_task": [
+          0.9784391461812029
+        ],
+        "acc_old": null,
+        "acc_new": 0.9784391461812029
+      },
+      {
+        "stage": 1,
+        "acc_seen": 0.9306366953342,
+        "acc_per_task": [
+          0.9234083522090052,
+          0.9523217247097844
+        ],
+        "acc_old": 0.9234083522090052,
+        "acc_new": 0.9523217247097844
+      },
+      {
+        "stage": 2,
+        "acc_seen": 0.8806941428574018,
+        "acc_per_task": [
+          0.8564485821125164,
+          0.8687057138549676,
+          0.965419254094491
+        ],
+        "acc_old": 0.8595128650481293,
+        "acc_new": 0.965419254094491
+      }
+    ],
+    "forgetting_t0": 0.12199056406868647,
+    "train_s": 1042.8402973999619,
+    "config": {
+      "report": false,
+      "t0_epochs": 20,
+      "epochs": 10,
+      "lr": 0.001,
+      "seed": 0
+    }
+  },
+  {
+    "method": "replay:250",
+    "buffer_per_class": 250,
+    "buffer_clips_final": 2000,
+    "buffer_frac_of_old_data": 0.08145975887911372,
+    "history": [
+      {
+        "stage": 0,
+        "acc_seen": 0.9784391461812029,
+        "acc_per_task": [
+          0.9784391461812029
+        ],
+        "acc_old": null,
+        "acc_new": 0.9784391461812029
+      },
+      {
+        "stage": 1,
+        "acc_seen": 0.9413215776821444,
+        "acc_per_task": [
+          0.9401172973045208,
+          0.9449344188150158
+        ],
+        "acc_old": 0.9401172973045208,
+        "acc_new": 0.9449344188150158
+      },
+      {
+        "stage": 2,
+        "acc_seen": 0.9085976207269887,
+        "acc_per_task": [
+          0.9017692421631608,
+          0.8710990502035278,
+          0.9665813269419327
+        ],
+        "acc_old": 0.8941016941732527,
+        "acc_new": 0.9665813269419327
+      }
+    ],
+    "forgetting_t0": 0.07666990401804208,
+    "train_s": 2451.066109800013,
+    "config": {
+      "report": false,
+      "t0_epochs": 20,
+      "epochs": 10,
+      "lr": 0.001,
+      "seed": 0
+    }
+  },
+  {
+    "method": "joint",
+    "buffer_per_class": 0,
+    "buffer_clips_final": 0,
+    "buffer_frac_of_old_data": 0.0,
+    "history": [
+      {
+        "stage": 0,
+        "acc_seen": 0.9784391461812029,
+        "acc_per_task": [
+          0.9784391461812029
+        ],
+        "acc_old": null,
+        "acc_new": 0.9784391461812029
+      },
+      {
+        "stage": 1,
+        "acc_seen": 0.95726276629568,
+        "acc_per_task": [
+          0.9701289368991898,
+          0.91866425448515
+        ],
+        "acc_old": 0.9701289368991898,
+        "acc_new": 0.91866425448515
+      },
+      {
+        "stage": 2,
+        "acc_seen": 0.949766928528317,
+        "acc_per_task": [
+          0.9623825282258999,
+          0.9273895673149404,
+          0.9342974906489451
+        ],
+        "acc_old": 0.95363428799816,
+        "acc_new": 0.9342974906489451
+      }
+    ],
+    "forgetting_t0": 0.016056617955303,
+    "train_s": 3638.9662670000107,
+    "config": {
+      "report": false,
+      "t0_epochs": 20,
+      "epochs": 10,
+      "lr": 0.001,
+      "seed": 0
+    }
+  }
+]

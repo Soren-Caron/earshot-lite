@@ -1,0 +1,9 @@
+jax==0.11.2
+flax==0.12.10
+optax==0.2.8
+numpy==2.5.3
+scipy==1.18.1
+tqdm==4.70.1
+matplotlib==3.11.2
+pytest==9.1.1
+ziglang==0.16.0
